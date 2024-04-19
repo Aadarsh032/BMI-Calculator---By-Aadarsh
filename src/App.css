@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(226, 231, 230);
+}
+.slider{
+     background-color: blue;  width: 600px;
+    }
+#mainbox
+{
+    background-color: aquamarine;
+    width:700px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15%;
+}
+#heading
+{
+    background-color: blue;
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+}
+#secondbox
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#bmi
+{
+    background-color: blue;
+    color: aliceblue;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 694px) {
+    body {
+      background-color: lightblue;
+      margin-top: 30%;
+
+    }
+    .slider{
+        background-color: blue;  width: 300px;
+       }
+       #mainbox
+       {
+    background-color: rgb(127, 131, 255);
+    width:360px;
+    border-radius: 10px;
+    margin: auto;
+    }
+    #heading
+    {
+        background-color: aquamarine;
+        color: black;
+    }
+  }
+  #ibutton
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7FF;
+  
+}
+#insideibutton
+{
+    background-color: #F2D0A4;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
